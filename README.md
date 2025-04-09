@@ -79,5 +79,3 @@ MIT
 ## ✨ Credits
 
 Built with 💙 by Mitali
-```
-
