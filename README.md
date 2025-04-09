@@ -57,7 +57,6 @@ diesel migration run
 docker build -t voice-ai-agent .
 docker run -p 3030:3030 -v $(pwd)/db.sqlite:/app/db.sqlite --name voice-agent voice-ai-agent
 ```
-
 ---
 
 ## 🧪 Test the Webhook
@@ -67,12 +66,6 @@ curl -X POST http://localhost:3030/webhook \
   -H "Content-Type: application/json" \
   -d '{"user_input": "Hello AI"}'
 ```
-
----
-
-## 📄 License
-
-MIT
 
 ---
 
